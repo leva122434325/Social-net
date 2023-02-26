@@ -1,0 +1,47 @@
+.item{
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+   margin:20px 0px;
+   background-color: rgb(195, 246, 246);
+    border-radius: 10px;
+}
+
+
+.item img {
+ width: 150px;
+ height: 100px;
+ border-radius: 10px;
+ margin: 5px;
+
+}
+
+.postsblock {
+  padding: 10px;
+  
+}
+.posts {
+  margin-top: 20px;
+}
+
+.position{
+  margin: 5px;
+}
+
+.likes {
+    cursor: pointer;
+    color: black;
+    position: relative;
+    left: 250px
+}
+
+.btn{
+  padding: 2px 20px;
+  background-color: #447bba;
+  cursor: pointer;
+  color:antiquewhite;
+  border-radius: 4px;
+  border: none;
+  font-size:14px;
+}

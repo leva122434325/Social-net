@@ -1,0 +1,11 @@
+.content {
+  grid-area: content;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+  }
+  .content img {
+    
+  }

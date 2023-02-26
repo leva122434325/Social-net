@@ -1,0 +1,29 @@
+.paginator {
+    margin: 10px;
+}
+.pageNumber {
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 100%;
+    margin: 0 7px;
+    cursor: pointer;
+
+}
+
+.selectedPage {
+    font-weight: bold;
+    cursor: pointer;
+    border-color: gold;
+    background-color: black;
+    color: gold;
+}
+
+.btn{
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, gold 0%, black 51%, gold 100%);
+    background-size: 200% auto;
+    cursor: pointer;
+}

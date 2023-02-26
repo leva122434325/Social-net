@@ -1,0 +1,40 @@
+.header {
+  grid-area: header;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 5px 5px gold;;
+}
+
+.header img {
+  width: 120px;
+  padding: 10px;
+  
+}
+
+.loginBlock {
+  float: right;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.loginBlock a, .logout {
+  color: black;
+  padding: 15px 30px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, gold 0%, black 51%, gold 100%);
+  background-size: 200% auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.username{
+  color: gold;
+  letter-spacing: 2px;
+}
